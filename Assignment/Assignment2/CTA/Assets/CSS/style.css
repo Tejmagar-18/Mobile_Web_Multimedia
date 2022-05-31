@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.joinus_section{
+    padding: 20px 0px;
+    background-color: #f3f4f6;
+    margin-top: 17%;
+}
+.wrapper_div{
+    padding:15px ;
+    background-color:white;
+}
+.joinus_div{
+    text-align-last: center;
+    font-size: 25px;
+    color:#374151;
+    font-family: 'Roboto';
+}
+.btn_group{
+    display:flex;
+    margin-top: 18px;
+}
+.blox_btn{
+    margin-left:40%;
+    background-color: #4f46e5;
+    color:white;
+    border-radius: 13%;
+    padding:10px 15px;
+}
+.journey_btn{
+    background-color: white;
+    border:1px solid #e7e9ed;
+    border-radius: 13%;
+    padding:10px 15px;
+    margin-left: 15px;
+}
