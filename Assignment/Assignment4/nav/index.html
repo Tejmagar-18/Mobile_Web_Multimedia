@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav index</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav class="nav_navbar">
+        <div class="nav__left">
+            <div class="logo">
+                <img src="Assets/Uploads/task-nav-logo.svg" alt="" class="logo__icon">
+                <h1 class="logo__text">workflow</h1>
+            </div>
+            <label id="icon">
+                <i class="fas fa-bars"> </i>
+            </label>
+            
+            <ul class="nav__items">
+                <div class="link">
+                    <li class="active__link">
+                        <a class="active" href="#">Dashboard</a>
+                    </li>
+                    <div class="active__line"></div>
+                </div>
+                <div class="link">
+                    <li class="active__link">
+                        <a class="" href="#">Team</a>
+                    </li>
+                    <div class=""></div>
+                </div>
+                <div class="link">
+                    <li class="active__link">
+                        <a class="" href="#">Projects</a>
+                    </li>
+                    <div class=""></div>
+                </div>
+                <div class="link">
+                    <li class="active__link">
+                        <a class="" href="#">Calender</a>
+                    </li>
+                    <div class=""></div>
+                </div>
+                
+            </ul>
+
+
+        </div>
+        
+        <div class="nav__right">
+            <div class="search__bar">
+                <img class="search__icon" src="./asstes/task-nav-search.svg" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <img src="Asssets/Uploads/task-nav-bell-icon.svg" alt="" class="notification__icon">
+            <img src="Assets/Uploads/task-nav-user.png" alt="" class="avatar">
+
+        </div>
+        
+        
+    </nav>
+    <script type="text/javascript" src="Assets/jquery/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('.nav_navbar ul').toggleClass('show');
+            });
+        });
+    </script>
+</body>
+</html>
