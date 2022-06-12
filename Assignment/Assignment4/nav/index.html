@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nav index</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/8cb4c3a067.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav class="nav_navbar">
         <div class="nav__left">
@@ -16,9 +18,9 @@
                 <h1 class="logo__text">workflow</h1>
             </div>
             <label id="icon">
-                <i class="fas fa-bars"> </i>
+                <i class="fa-solid fa-bars"></i>
             </label>
-            
+
             <ul class="nav__items">
                 <div class="link">
                     <li class="active__link">
@@ -44,12 +46,12 @@
                     </li>
                     <div class=""></div>
                 </div>
-                
+
             </ul>
 
 
         </div>
-        
+
         <div class="nav__right">
             <div class="search__bar">
                 <img class="search__icon" src="./asstes/task-nav-search.svg" alt="">
@@ -59,16 +61,17 @@
             <img src="Assets/Uploads/task-nav-user.png" alt="" class="avatar">
 
         </div>
-        
-        
+
+
     </nav>
     <script type="text/javascript" src="Assets/jquery/jquery.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-            $('#icon').click(function(){
+        $(document).ready(function () {
+            $('#icon').click(function () {
                 $('.nav_navbar ul').toggleClass('show');
             });
         });
     </script>
 </body>
+
 </html>
