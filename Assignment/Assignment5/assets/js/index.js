@@ -6,7 +6,7 @@ document.querySelector('#add').onclick = function () {
         document.querySelector('#added-tasks').innerHTML += `
         <div class="added-task"> 
         <span id="task-name">${document.querySelector('#tasks input').value} </span>
-        <button class = "delete"> Delete
+        <button class = "delete" target="Remove"> <i class="fa-solid fa-circle-minus"></i>
         </button>
         </div>`;
         var toDeleteTask = document.querySelectorAll(".delete");

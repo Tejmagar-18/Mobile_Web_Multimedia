@@ -43,8 +43,8 @@ body{
     background-color: rgb(25, 143, 25);
     color:white;
     border:2px solid rgb(25, 143, 25);
-    font-size:20px;
-   
+    font-size:30px;
+    cursor:pointer;
 }
 #added-tasks{
     width:100%;
@@ -52,7 +52,7 @@ body{
     margin-bottom: 10px;
     border-radius: 10px;
     text-align: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     position:relative;
 }
 .added-task{
@@ -67,15 +67,17 @@ body{
     justify-content: space-between;
 }
 .added-task span{
-    font-size: 17px;
+    font-size: 20px;
+    margin-top: -10px;
 }
 .added-task button{
     background-color:red;
-    height:30px;
+    height:40px;
     width:60px;
     color:white;
     border:1px solid red;
     cursor: pointer;
-    margin-top: -14px;
+    margin-top: -20px;
     border-radius: 10px;
+    font-size:25px;
 }
